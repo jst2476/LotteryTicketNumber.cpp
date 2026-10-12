@@ -34,9 +34,11 @@ int main()
 	string fifth = to_string(number5);
 	string sixth = to_string(number6);
 
+	// Combining strings to display
 
+	cout << first << second << third << fourth << fifth << sixth;
 
-
+	return 0;
 
 
 
