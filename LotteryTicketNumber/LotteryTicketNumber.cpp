@@ -19,11 +19,20 @@ int main()
 	uniform_int_distribution<int> randomNumber(MIN, MAX);
 
 	int number1 = randomNumber(engine);
-	int number2 = randomnumber(engine);
-	int number3 = randomnumber(engine);
-	int number4 = randomnumber(engine);
-	int number5 = randomnumber(engine);
-	int number6 = randomnumber(engine);
+	int number2 = randomNumber(engine);
+	int number3 = randomNumber(engine);
+	int number4 = randomNumber(engine);
+	int number5 = randomNumber(engine);
+	int number6 = randomNumber(engine);
+
+	// Converting numbers to string
+
+	string first = to_string(number1);
+	string second = to_string(number2);
+	string third = to_string(number3);
+	string fourth = to_string(number4);
+	string fifth = to_string(number5);
+	string sixth = to_string(number6);
 
 
 
