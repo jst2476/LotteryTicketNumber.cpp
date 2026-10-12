@@ -4,11 +4,12 @@
 #include <iostream>
 #include <string>
 #include <random>
+#include <iomanip>
 
 using namespace std;
 int main()
 {
-	cout << "LOTTERY TICKET WINNER!" << endl << endl;
+	cout << "\t\tLOTTERY TICKET WINNER!" << endl;
 
 	//	Variables:
 
@@ -36,7 +37,16 @@ int main()
 
 	// Combining strings to display
 
-	cout << first << second << third << fourth << fifth << sixth;
+	cout << "\t\tWinning Number: " << first << second << third << fourth << fifth << sixth << endl;
+
+	// Testing purposes and making sure numbers match the order. 
+	//cout << first << endl;
+	//cout << second << endl;
+	//cout << third << endl;
+	//cout << fourth << endl;
+	//cout << fifth << endl;
+	//cout << sixth << endl;
+
 
 	return 0;
 
